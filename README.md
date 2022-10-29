@@ -11,16 +11,16 @@ The dataset description can be found [here](./DataDocumentation.txt)
 
 There are three files in this project:
 
-[train.csv](../datasets/train.csv)-- this data contains all of the training data for your model.
+[train.csv](./datasets/train.csv)-- this data contains all of the training data for your model.
 The target variable (SalePrice) is removed from the test set!
 
-[test.csv](../datasets/test.csv) -- this data contains the test data for your model. You will feed this data into your regression model to make predictions.
+[test.csv](./datasets/test.csv) -- this data contains the test data for your model. You will feed this data into your regression model to make predictions.
 
-[sample_sub_reg.csv](../datasets/sample_sub_reg.csv) -- An example of a correctly formatted submission for this challenge (with a random number provided as predictions for SalePrice. 
+[sample_sub_reg.csv](./datasets/sample_sub_reg.csv) -- An example of a correctly formatted submission for this challenge (with a random number provided as predictions for SalePrice. 
 
 ### The Modelling Process
 
-1. The [train dataset](../datasets/train.csv) has all of the columns that needed to generate and refine our models. The [test dataset](../datasets/test.csv) has all of those columns except for the SalePrice that we are trying to predict in our Regression model.
+1. The train dataset has all of the columns that needed to generate and refine our models. The test dataset has all of those columns except for the SalePrice that we are trying to predict in our Regression model.
 
 2. Generate the regression model using the training data. Within this process, we'll be making use of:
     - train-test split
